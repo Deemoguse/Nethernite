@@ -1,0 +1,85 @@
+@import './mixins';
+
+.glob-wrapper {
+  display: grid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  // grid options
+  grid-template-rows: auto 1fr;
+}
+
+.content-wrapper {
+  grid-row: 2 span;
+  background-image: url('/assets/img/bg-image.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.container {
+  --width: 1366px;
+  --padding: 40px;
+  --max-width: calc(var(--width) + (var(--padding) * 2));
+
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 0 var(--padding);
+  margin: 0 auto;
+
+  @at-root body.debug & {
+    background-color: rgba(238, 255, 0, 0.1);
+  }
+
+  @media screen and (max-width: 1366px) {
+    --width: 980px;
+    --padding: 20px;
+  }
+  @media screen and (max-width: 980px) {
+    --width: 768px;
+    --padding: 40px;
+  }
+}
+
+.running-light {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 100%;
+
+    border-left: 2px solid rgb(255 255 255 / 70%);
+    border-right: 2px solid rgb(255 255 255 / 70%);
+
+    position: absolute;
+    top: 0;
+    left: calc(-30% - 10px);
+    transform: skewX(348deg);
+
+    opacity: 1;
+    box-shadow: 0 0 10px 1px white;
+    background-color: rgba(255 255 255 / 65%);
+    z-index: 10;
+  }
+
+  // states
+  @include state(hover) {
+    &::before {
+      width: 15%;
+
+      border-left-color: transparent;
+      border-right-color: transparent;
+
+      left: 100%;
+
+      background-color: rgba(255 255 255 / 0%);
+      box-shadow: 0 0 10px 1px transparent;
+      transition: 0.5s ease-in-out 0.15s, background-color 1s 0.15s, box-shadow 1s 0.25s;
+    }
+  }
+}

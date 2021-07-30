@@ -1,0 +1,88 @@
+@use 'sass:list';
+
+.background {
+  overflow: hidden;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  // includes
+  $items:
+    '/assets/img/bg-gold-1.png',
+    '/assets/img/bg-gold-2.png',
+    '/assets/img/bg-character-1.png',
+    '/assets/img/bg-character-2.png';
+
+  @for $item from 1 through list.length($items) {
+    &__item-#{$item} {
+      position: absolute;
+      background-image: url(#{list.nth($items, $item)});
+      background-size: contain;
+    }
+  }
+
+  &__item-1 {
+    width: 927px;
+    height: 389px;
+    top: 52%;
+    left: -50px;
+
+    @media screen and (max-width: 1366px) {
+      left: -80px;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 571px;
+      height: 240px;
+    }
+  }
+
+  &__item-2 {
+    width: 464px;
+    height: 271px;
+    right: -50px;
+    top: 49%;
+
+    @media screen and (max-width: 600px) {
+      width: 371px;
+      height: 216px;
+      left: 25%;
+      top: 66%;
+    }
+  }
+
+  &__item-3 {
+    width: 304px;
+    height: 408px;
+    top: 30%;
+    left: -20px;
+    z-index: -1;
+
+    @media screen and (max-width: 1366px) {
+      top: 28%;
+      left: -30px;
+    }
+
+    @media screen and (max-width: 980px) {
+      display: none;
+    }
+  }
+
+  &__item-4 {
+    width: 400px;
+    height: 400px;
+    top: 25%;
+    right: -55px;
+    z-index: -1;
+
+    @media screen and (max-width: 1366px) {
+      width: 300px;
+      height: 300px;
+      top: 33%;
+    }
+
+    @media screen and (max-width: 980px) {
+      display: none;
+    }
+  }
+}

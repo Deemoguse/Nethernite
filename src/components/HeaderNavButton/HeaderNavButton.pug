@@ -1,0 +1,11 @@
+mixin headerNavButton (type)
+
+	- var icon = type === "home" ? "icon-home.svg" : "icon-back.svg"
+	- var text = type === "home" ? "home" : "back"
+	- var gradientDir = type === "home" ? 'right' : 'left'
+
+	a.header-nav-button.running-light
+		img.header-nav-button__icon(src=("assets/svg/" + icon))
+		span.header-nav-button__text= text
+		.header-nav-button__border-gradient(class=gradientDir)
+			include:svg ../../assets/svg/bg-header-button.svg

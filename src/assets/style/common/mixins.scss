@@ -1,0 +1,25 @@
+@use 'sass:selector';
+@use 'sass:list';
+@import 'functions';
+
+// functional mixins
+@mixin object ($selector) {
+  $parent: #{&};
+  @at-root #{$parent}__#{$selector}.#{$selector} {@content}
+}
+@mixin elem ($selector) {
+  $this-selector: simple-selectors(#{&});
+  $parent: list.nth($this-selector, list.length($this-selector) - 1);
+  $module: list.nth($this-selector, list.length($this-selector));
+  @at-root #{$parent}#{$module} #{$module}__#{$selector} {@content}
+}
+
+@mixin state ($states...) {
+  @each $state in $states {
+    @media screen and (min-width: 870px) {
+      &:#{$state} {
+        @content
+      }
+    }
+  }
+}

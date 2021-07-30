@@ -1,0 +1,6 @@
+include ../HeaderAccountItem/HeaderAccountItem
+
+mixin headerAccount (data)
+	.header-account
+		each account in data
+			+headerAccountItem(account)

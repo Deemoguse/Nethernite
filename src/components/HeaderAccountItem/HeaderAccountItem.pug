@@ -1,0 +1,10 @@
+mixin headerAccountItem (accountData)
+	.header-account-item(class=("header-account-item--" + accountData.type))
+		img.header-account-item__icon(src= accountData.icon)
+
+		div
+			p.header-account-item__count= accountData.value
+			p.header-account-item__label= accountData.label
+
+		button.header-account-item__refill.running-light
+			img(src="assets/svg/icon-refill.svg")

@@ -1,0 +1,9 @@
+include ../ShopNav/ShopNav
+include ../ShopTabsWrapper/ShopTabWrapper
+- var SHOP_TABS = GLOB_SHOP_TABS
+
+section.shop
+	.container
+		+shopNav(SHOP_TABS)
+	.container.shop__cover.shop__cover--active
+		+shopTabsWrapper(SHOP_TABS)

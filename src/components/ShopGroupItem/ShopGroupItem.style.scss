@@ -1,0 +1,234 @@
+@import '../../assets/style/common/mixins';
+
+.shop-group-item {
+  display: grid;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 217 / 299;
+  padding: 20px;
+  border-radius: 6%;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  background-image: url('/assets/img/card-bg.png');
+  background-size: cover;
+
+  //grid options
+  grid-template-rows: 43% 30% auto;
+
+  @media screen and (max-width: 360px) {
+    padding: 15px;
+  }
+
+  // includes
+  &__icon {
+    width: 100%;
+    height: 100%;
+    max-height: 120px;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  &__title {
+    margin-top: auto;
+    font-family: 'Roboto';
+    color: white;
+  }
+
+  &__denomination {
+    font-size: 30px;
+    font-weight: bold;
+
+    @media screen and (max-width: 425px) {
+      font-size: 20px;
+    }
+  }
+
+  &__label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+
+    @media screen and (max-width: 425px) {
+      font-size: 11px;
+    }
+  }
+
+  // bem module
+  @include object('button') {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 48px;
+    max-width: 154px;
+    border-radius: 999px;
+    margin-top: 25px;
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: white;
+    transition: 0.5s;
+
+    @media screen and (max-width: 768px) {
+      height: 36px;
+    }
+    @media screen and (max-width: 425px) {
+      height: 27px;
+      margin-top: 10px;
+      font-size: 11px;
+    }
+
+    // states
+    @include state(hover) {
+      transform: scale(1.05);
+
+      .button__bg {
+        &::before {opacity: 0;}
+        &::after {opacity: 1;}
+      }
+    }
+
+    @include state(active) {
+      transform: scale(0.95);
+      transition: 0.25s;
+    }
+
+    // includes
+    & > * {
+      z-index: 1;
+    }
+
+    @include elem('price') {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 20px;
+
+      @media screen and (max-width: 425px) {
+        margin-left: 10px;
+      }
+    }
+
+    @include elem('icon') {
+      margin-right: 4px;
+
+      @media screen and (max-width: 425px) {
+        max-width: 17px;
+        max-height: 17px;
+        margin-right: 2px;
+      }
+    }
+
+    @include elem('value') {
+      padding-top: 2px;
+      line-height: 0.8em;
+    }
+
+    @include elem('running-light') {
+      border-radius: 999px;
+      position: absolute;
+      inset: 0;
+    }
+
+    @include elem('bg') {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+
+      &::before, &::after {
+        content: '';
+        display: block;
+        border: 2px solid transparent;
+        border-radius: 999px;
+        position: absolute;
+        inset: 0;
+        transition: 0.5s;
+      }
+
+      &::before {
+        opacity: 1;
+        background:
+          linear-gradient(90deg, #242333, #3C3B53) padding-box,
+          linear-gradient(-90deg, #CB4CBC, #682FBD) border-box;
+
+        @media screen and (max-width: 425px) {
+          background:
+            linear-gradient(-90deg, #CB4CBC, #682FBD) padding-box,
+            linear-gradient(-90deg, #CB4CBC, #682FBD) border-box;
+        }
+      }
+
+      &::after {
+        opacity: 0;
+        background:
+          linear-gradient(90deg, #2f2e46, #464564) padding-box,
+          linear-gradient(-90deg, #ff41e9, #7b26fc) border-box;
+      }
+
+      // states
+      @include state(hover) {
+        &::after {opacity: 1}
+        &::before {opacity: 0}
+      }
+    }
+  }
+
+  // bem module
+  @include object('benefit') {
+    width: 83px;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('/assets/svg/card-benefit.svg');
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (max-width: 425px) {
+      width: 65px;
+      height: 56px;
+    }
+
+    @include elem('wrapper') {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 20px;
+      left: 5px;
+      transform: rotate(-44deg);
+
+      @media screen and (max-width: 425px) {
+        top: 16px;
+        left: 2px;
+      }
+    }
+
+    @include elem('icon') {
+      max-width: 17px;
+      max-height: 17px;
+
+      @media screen and (max-width: 425px) {
+        max-width: 13px;
+        max-height: 13px;
+      }
+    }
+
+    @include elem('value') {
+      margin-left: 4px;
+      font-family: 'Roboto';
+      font-size: 13px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.45);
+
+      @media screen and (max-width: 425px) {
+        font-size: 11px;
+      }
+    }
+  }
+}

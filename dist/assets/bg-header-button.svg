@@ -1,0 +1,17 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="borderGradient">
+      <stop stop-color="#9794C6" stop-opacity="0.5"/>
+      <stop stop-color="#9794C6" stop-opacity="0" offset="0.9" />
+    </linearGradient>
+  </defs>
+
+  <rect
+    class="buttonRect"
+    x="2" y="1" rx="25" ry="25"
+    width="100%"
+    height="calc(100% - 2px)"
+    stroke="url(#borderGradient)"
+    stroke-width="2"
+  />
+</svg>

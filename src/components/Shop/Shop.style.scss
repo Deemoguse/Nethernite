@@ -1,0 +1,69 @@
+.shop {
+  display: grid;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 54px;
+
+  // grid options
+  grid-template-rows: auto 1fr;
+
+  @media screen and (max-width: 870px) {
+    padding-top: 0;
+  }
+  @media screen and (max-width: 600px) {
+    padding-bottom: 35px;
+  }
+  @media screen and (max-width: 359px) {
+    padding-bottom: 24px;
+  }
+
+  // includes
+  & .container:nth-child(1) {
+    width: 100%;
+
+    @media screen and (max-width: 870px) {
+      max-width: 100vw;
+      padding: 0;
+    }
+  }
+  & .container:nth-child(2) {
+    display: grid;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+
+    // grid options
+    grid-row: 2 span
+  }
+
+  &__cover {
+    position: relative;
+
+    &::before, &::after {
+      --padding: 20px;
+
+      content: '';
+      display: block;
+      width: calc(100% - var(--padding) * 2);
+      height: 130px;
+      border-radius: 0 0 10px 10px;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      opacity: 0;
+      background-image: linear-gradient(to top, #242333, transparent);
+      transition: opacity 0.5s;
+      pointer-events: none;
+      z-index: 10;
+
+      @media screen and (max-width: 870px) {
+        --padding: 40px;
+      }
+    }
+
+    &--active::after {
+      opacity: 1;
+    }
+  }
+}

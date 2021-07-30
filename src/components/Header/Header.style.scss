@@ -1,0 +1,21 @@
+@import '../../assets/style/common/mixins';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 40px 11px;
+
+  background-image: url('/assets/img/header-bg.png');
+  background-size: cover;
+  background-position: left center;
+  background-color: #242332;
+
+  @media screen and (max-width: 870px) {
+    padding: 10px;
+  }
+  @media screen and (max-width: 425px) {
+    padding: 0px;
+  }
+}

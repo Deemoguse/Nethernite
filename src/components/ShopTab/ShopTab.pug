@@ -1,0 +1,6 @@
+include ../ShopGroup/ShopGroup
+
+mixin shopTab (tabData, index)
+	.shop-tab(class=(index === 0 && "shop-tab--active"), data-id=(tabData.id))
+		each group in tabData.groups
+			+shopGroup(group)

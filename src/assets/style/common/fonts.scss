@@ -1,0 +1,44 @@
+/* Leksa Sans Pro */
+
+@font-face {
+  font-family: 'Leksa Sans Pro';
+  font-weight: bold;
+  font-style: normal;
+  src: local('Leksa Sans Pro ExtraBold'), local('Leksa-Sans-Pro-ExtraBold'),
+       url('./src/assets/fonts/LeksaSansPro-Bold.woff2') format('woff2'),
+       url('./src/assets/fonts/LeksaSansPro-Bold.woff') format('woff'),
+       url('./src/assets/fonts/LeksaSansPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Leksa Sans Pro';
+  font-weight: 800;
+  font-style: normal;
+  src: local('Leksa Sans Pro ExtraBold'), local('Leksa-Sans-Pro-ExtraBold'),
+       url('./src/assets/fonts/LeksaSansPro-ExtraBold.woff2') format('woff2'),
+       url('./src/assets/fonts/LeksaSansPro-ExtraBold.woff') format('woff'),
+       url('./src/assets/fonts/LeksaSansPro-ExtraBold.ttf') format('truetype');
+}
+
+/* Roboto */
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Roboto'), url('./src/assets/fonts/Roboto-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Roboto'), url('./src/assets/fonts/Roboto-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-style: normal;
+  src: local('Roboto'), url('./src/assets/fonts/Roboto-Bold.ttf') format('ttf');
+}

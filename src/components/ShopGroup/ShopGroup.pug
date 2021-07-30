@@ -1,0 +1,7 @@
+include ../ShopGroupItem/ShopGroupItem
+
+mixin shopGroup (groupData)
+	.shop-group
+		h2.shop-group__title= groupData.title
+		each item in groupData.items
+			+shopGroupItem(item)

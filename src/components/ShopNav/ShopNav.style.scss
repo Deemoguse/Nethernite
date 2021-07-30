@@ -1,0 +1,99 @@
+@import '../../assets/style/common/mixins';
+
+.shop-nav {
+  min-width: max-content;
+
+  @media screen and (max-width: 870px) {
+    padding-bottom: 11px;
+  }
+
+  // includes
+  & > * + * {
+    margin-left: 10px;
+
+    @media screen and (max-width: 870px) {
+      margin-left: 0px;
+    }
+  }
+
+  &__item {
+    flex: 1 1;
+    padding: 14px 20px 17px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    background-color: #323145;
+    transition: 0.5s;
+
+    &::before, &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 3px;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-image: linear-gradient(90deg, #F52CBF 0%, #FF7C46 100%);
+      opacity: 0;
+      transition: 0.5s;
+    }
+
+    &::before {
+      width: 80%;
+    }
+
+    &::after {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 870px) {
+      border-radius: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+      min-width: max-content;
+      padding: 20px 10px;
+    }
+
+    // modifs
+    &--active {
+      &::before {
+        opacity: 1;
+        box-shadow: 0 0 10px mix(#F52CBF, #FF7C46, 50%);
+      }
+      &::after {
+        opacity: .35
+      }
+
+      @media screen and (max-width: 870px) {
+        background-image: linear-gradient(0deg, rgba(250, 84, 131, 0.1), transparent);
+      }
+
+      .shop-nav__title {
+        color: white;
+      }
+    }
+
+    // states
+    @include state(hover) {
+      &:not(.shop-nav__item--active)::after {opacity: .75}
+
+      .shop-nav__title {
+        color: white;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__title {
+    display: block;
+    font-family: 'Leksa Sans Pro';
+    font-size: 20px;
+    font-weight: bold;
+    color: #9794C6;
+    transition: 0.5s;
+
+    @media screen and (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+doctype html
+html(lang="ru")
+	head
+		title Nethernite
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href="style.css")
+
+		body
+			//- style for this elem in global.scss
+			.glob-wrapper
+				include components/Header/Header
+
+				//- style for this elem in global.scss
+				.content-wrapper
+
+					include components/Shop/Shop
+					include components/Background/Background
+
+		//- script
+		script(src="main.js")

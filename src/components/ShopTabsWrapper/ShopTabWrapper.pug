@@ -1,0 +1,6 @@
+include ../ShopTab/ShopTab
+
+mixin shopTabsWrapper (tabs)
+	.shop-tabs-wrapper
+		each tab, index in tabs
+			+shopTab(tab, index)

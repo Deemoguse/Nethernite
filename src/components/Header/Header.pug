@@ -1,0 +1,9 @@
+include ../HeaderNavButton/HeaderNavButton
+include ../HeaderAccounts/HeaderAccount
+
+- var USER_ACCOUNTS = GLOB_USER_ACCOUNTS
+
+header.header
+	+headerNavButton("back")
+	+headerAccount(USER_ACCOUNTS)
+	+headerNavButton("home")

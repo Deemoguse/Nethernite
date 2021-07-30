@@ -1,0 +1,6 @@
+mixin shopNav (data)
+	.shop-nav-swiper-container.swiper-container
+		nav.shop-nav.swiper-wrapper
+			each tab, index in data
+				button.shop-nav__item(class=(index == 0 && 'shop-nav__item--active'), data-id=(tab.id))
+					span.shop-nav__title !{tab.title}

@@ -1,0 +1,8 @@
+.shop-tab {
+  display: none;
+
+  //modifs
+  &--active {
+    display: block;
+  }
+}

@@ -1,0 +1,21 @@
+mixin shopGroupItem (itemData)
+	.shop-group-item
+		if itemData.benefit
+			.shop-group-item__benefit.benefit
+				.benefit__wrapper
+					img.benefit__icon(src=('/assets/img/icon-' + itemData.benefit.type + '.png'))
+					p.benefit__value=itemData.benefit.value
+
+		img.shop-group-item__icon(src=itemData.icon)
+
+		.shop-group-item__title
+			p.shop-group-item__denomination= itemData.denomination
+			h3.shop-group-item__label= itemData.title
+
+		button.shop-group-item__button.button
+			span.button__text Купить
+			.button__price
+				img.button__icon(src=('/assets/svg/icon-' + itemData.currency + '.svg'))
+				span.button__value= itemData.price
+			.button__running-light.running-light
+			.button__bg

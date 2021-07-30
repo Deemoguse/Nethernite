@@ -1,0 +1,150 @@
+@import '../../assets/style/common/mixins';
+
+.header-account-item {
+  display: flex;
+  grid-template-columns: auto 55px auto;
+  align-items: center;
+  gap: 20px;
+  padding-right: 20px;
+  position: relative;
+  cursor: default;
+
+  @media screen and (max-width: 870px) {
+    padding-right: 8px;
+  }
+  @media screen and (max-width: 600px) {
+    padding-right: 4px;
+    gap: 10px;
+  }
+  @media screen and (max-width: 425px) {
+    padding-right: 0px;
+  }
+
+  &::before, &::after {
+    content: '';
+    display: block;
+    height: 44px;
+    border: 2px solid transparent;
+    border-radius: 999px;
+
+    position: absolute;
+    top: 50%;
+    left: 27px;
+    right: 0;
+    transform: translateY(-50%);
+
+    background: #191b23;
+    opacity: 0;
+    transition: 0.25s;
+
+    @media screen and (max-width: 870px) {
+      height: 36px;
+      border-radius: 10px;
+    }
+    @media screen and (max-width: 600px) {
+      height: 25px;
+      border-radius: 12px 8px 8px 12px;
+      left: 20px;
+    }
+    @media screen and (max-width: 425px) {
+      height: 18px;
+    }
+  }
+
+  &::after {
+    opacity: 1;
+    transition: 0.25s;
+  }
+
+  // states
+  @include state(hover) {
+    &::after {
+      opacity: 0;
+    }
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  // modifs
+  &--coins::before {
+    background:
+      linear-gradient(to right, transparent, mix(#191b23, #e5ba1e, 80%)) padding-box,
+      linear-gradient(to right, transparent, mix(#191b23, #eaba0a, 40%)) border-box;
+  }
+
+  &--crystals::before {
+    background:
+      linear-gradient(to right, transparent, mix(#191b23, #7f2cff, 70%)) padding-box,
+      linear-gradient(to right, transparent, mix(#191b23, #7f2cff, 30%)) border-box;
+  }
+
+  // includes
+  & > * {
+    z-index: 1;
+  }
+
+  &__count {
+    margin: 0;
+    font-family: 'Leksa Sans Pro';
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+    @media screen and (max-width: 600px) {
+      font-size: 13px;
+    }
+  }
+
+  &__icon {
+    @media screen and (max-width: 870px) {
+      width: 60px;
+    }
+    @media screen and (max-width: 600px) {
+      width: 50px;
+    }
+    @media screen and (max-width: 425px) {
+      width: 40px;
+    }
+  }
+
+  &__label {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    color: #B9B7EA;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  &__refill {
+    display: flex;
+    height: 28px;
+    border-radius: 5px;
+
+    box-shadow: 0 0 20px 1px #30C325, inset 0 0 0 1px #2C812A;
+    background-color: #2C812A;
+    transition: 0.25s;
+
+    @media screen and (max-width: 600px) {
+      width: 20px;
+      height: 22px;
+    }
+
+    // states
+    @include state(hover) {
+      height: 30px;
+      transform: translateY(-1px);
+      background-color: #329a2f;
+      box-shadow: 0 0 20px 4px #30C325, inset 0 0 0 1px #3e863c;
+    }
+
+    @include state(active) {
+      height: 27px;
+      transform: translateY(1px);
+    }
+  }
+}

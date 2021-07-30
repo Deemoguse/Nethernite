@@ -1,0 +1,17 @@
+@import '../../assets/style/common/mixins';
+
+.header-account {
+  display: flex;
+
+  // includes
+  & > * + * {
+    margin-left: 46px;
+
+    @media screen and (max-width: 870px) {
+      margin-left: 25px;
+    }
+    @media screen and (max-width: 600px) {
+      margin-left: 15px;
+    }
+  }
+}

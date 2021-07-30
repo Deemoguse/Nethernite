@@ -1,0 +1,1204 @@
+{
+	"GLOB_USER_ACCOUNTS": [
+		{
+			"type": "coins",
+			"icon": "assets/img/account-coins.png",
+			"label": "coins",
+			"value": 1000254
+		},
+		{
+			"type": "crystals",
+			"icon": "assets/img/account-crystals.png",
+			"label": "crystals",
+			"value": 1254
+		}
+	],
+	"GLOB_SHOP_TABS": [
+		{
+			"id": 1,
+			"title": "Монстр Боксы",
+			"groups": [
+				{
+					"id": "crystal",
+					"title": "Кристаллы Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency":"dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						}
+					]
+				},
+				{
+					"id": "coin",
+					"title": "Монеты Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency":"crystal",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "crystal",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "crystal",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "crystal",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "crystal",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "crystal",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "crystal",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "crystal",
+							"icon": "assets/img/shop-item-coin.png"
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "crystal",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "crystal",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Банк",
+			"groups": [
+				{
+					"id": "crystal",
+					"title": "Кристаллы Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						}
+					]
+				},
+				{
+					"id": "coin",
+					"title": "Монеты Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Наборы",
+			"groups": [
+				{
+					"id": "crystal",
+					"title": "Кристаллы Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						}
+					]
+				},
+				{
+					"id": "coin",
+					"title": "Монеты Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 4,
+			"title": "Спец<wbr>предложения",
+			"groups": [
+				{
+					"id": "crystal",
+					"title": "Кристаллы Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						}
+					]
+				},
+				{
+					"id": "coin",
+					"title": "Монеты Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 5,
+			"title": "Промокоды",
+			"groups": [
+				{
+					"id": "crystal",
+					"title": "Кристаллы Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-crystal.png",
+							"benefit": {
+								"type": "coin",
+								"value": "500k"
+							}
+						}
+					]
+				},
+				{
+					"id": "coin",
+					"title": "Монеты Незера",
+					"items": [
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						},
+						{
+							"title": "Handful of Coins",
+							"denomination": "x100",
+							"price": 10,
+							"currency": "dollar",
+							"icon": "assets/img/shop-item-coin.png",
+							"benefit": {
+								"type": "crystal",
+								"value": "500k"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

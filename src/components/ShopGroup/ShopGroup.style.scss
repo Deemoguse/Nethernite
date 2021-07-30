@@ -1,0 +1,46 @@
+.shop-group {
+  --grid-columns: 5;
+
+  display: grid;
+  padding: 25px 26px;
+
+  // grid options
+  grid-template-columns: repeat(var(--grid-columns), minmax(124px, auto));
+  gap: 20px;
+
+  @media screen and (max-width: 1366px) {
+    --grid-columns: 4;
+  }
+  @media screen and (max-width: 980px) {
+    --grid-columns: 3;
+  }
+  @media screen and (max-width: 870px) {
+    padding: 10px 15px 20px;
+    gap: 10px;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 10px 10px 20px;
+    --grid-columns: 2;
+  }
+
+  & + & {
+    border-top: 2px solid #2f2f42;
+  }
+
+  // includes
+  &__title {
+    margin-bottom: 8px;
+    font-family: 'Leksa Sans Pro';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+
+    // grid options
+    grid-column: 1 / -1;
+
+    @media screen and (max-width: 870px) {
+      margin: 10px 0 10px;
+    }
+  }
+}
